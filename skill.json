@@ -1,0 +1,69 @@
+{
+  "name": "openclaw-killer",
+  "version": "1.1.0",
+  "description": "一键完美卸载 OpenClaw，让这只龙虾体面告别 🦞 | One-click perfect uninstallation of OpenClaw",
+  "author": "orange2ai",
+  "license": "MIT",
+  "homepage": "https://github.com/orange2ai/openclaw-killer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orange2ai/openclaw-killer.git"
+  },
+  "keywords": [
+    "openclaw",
+    "uninstall",
+    "卸载",
+    "龙虾",
+    "lobster",
+    "cleanup",
+    "removal"
+  ],
+  "triggers": [
+    "卸载 OpenClaw",
+    "删除 OpenClaw",
+    "移除 OpenClaw",
+    "uninstall OpenClaw",
+    "remove OpenClaw",
+    "卸载龙虾",
+    "删除龙虾"
+  ],
+  "languages": [
+    "zh-CN",
+    "en",
+    "ja",
+    "ko",
+    "de",
+    "fr",
+    "es",
+    "tr",
+    "nl",
+    "pt",
+    "ar",
+    "vi",
+    "ru",
+    "id",
+    "th",
+    "it"
+  ],
+  "platforms": [
+    "macOS",
+    "Linux",
+    "Windows"
+  ],
+  "features": [
+    "自动检测系统环境",
+    "智能选择卸载路径",
+    "清理所有残留文件",
+    "支持多 profile 配置",
+    "脚本自我清理",
+    "16 种语言支持"
+  ],
+  "files": [
+    "openclaw-killer.sh",
+    "openclaw-killer.ps1",
+    "openclaw-killer.skill.md",
+    "README.md",
+    "WHY.md",
+    "LICENSE"
+  ]
+}

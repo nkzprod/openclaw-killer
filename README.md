@@ -43,7 +43,21 @@
 
 ## 快速开始
 
-### macOS / Linux
+### 方式 1: 作为 OpenClaw Skill 使用
+
+如果你还安装着 OpenClaw，可以将其作为 Skill 使用：
+
+```bash
+# 安装 Skill
+./install-skill.sh
+
+# 然后在 OpenClaw 中说
+"卸载 OpenClaw" 或 "uninstall OpenClaw"
+```
+
+### 方式 2: 直接运行脚本
+
+#### macOS / Linux
 
 ```bash
 # 下载脚本
@@ -78,6 +92,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ✓ 支持多 profile 配置
 ✓ 清晰的进度提示
 ✨ **v1.1 新功能**：脚本执行完毕后自动删除自身，无毒副作用
+🎯 **Skill 支持**：可作为 OpenClaw Skill 使用，在 OpenClaw 内部卸载自己
 
 ## 它会做什么
 
