@@ -231,3 +231,14 @@ echo "======================================"
 echo ""
 echo "这只龙虾已经体面告别 🦞"
 echo ""
+
+# 自我清理：删除脚本自身
+print_step "清理卸载工具..."
+SCRIPT_PATH="$(cd "$(dirname "$0")" && pwd)/$(basename "$0")"
+if [ -f "$SCRIPT_PATH" ]; then
+    rm -f "$SCRIPT_PATH"
+    print_success "卸载工具已自我清理，无毒副作用 ✨"
+else
+    print_warning "无法定位脚本文件，请手动删除"
+fi
+echo ""

@@ -224,3 +224,15 @@ Write-Host "======================================"
 Write-Host ""
 Write-Host "这只龙虾已经体面告别 🦞"
 Write-Host ""
+
+# 自我清理：删除脚本自身
+Write-Step "清理卸载工具..."
+$ScriptPath = $MyInvocation.MyCommand.Path
+if ($ScriptPath -and (Test-Path $ScriptPath)) {
+    Start-Sleep -Seconds 1
+    Remove-Item -Path $ScriptPath -Force
+    Write-Success "卸载工具已自我清理，无毒副作用 ✨"
+} else {
+    Write-Warning "无法定位脚本文件，请手动删除"
+}
+Write-Host ""

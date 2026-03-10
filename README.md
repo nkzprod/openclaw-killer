@@ -4,6 +4,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)](https://github.com)
+[![Languages](https://img.shields.io/badge/languages-16-blue.svg)](https://github.com)
+
+**🌍 多语言支持**: [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Nederlands](README.nl.md) | [Português](README.pt.md) | [العربية](README.ar.md) | [Tiếng Việt](README.vi.md) | [Русский](README.ru.md) | [Bahasa Indonesia](README.id.md) | [ไทย](README.th.md) | [Italiano](README.it.md)
 
 ![OpenClaw Killer Cover](cover.png)
 
@@ -74,6 +77,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ✓ 清理所有残留文件
 ✓ 支持多 profile 配置
 ✓ 清晰的进度提示
+✨ **v1.1 新功能**：脚本执行完毕后自动删除自身，无毒副作用
 
 ## 它会做什么
 
