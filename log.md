@@ -57,6 +57,27 @@
 
 - **README.md** - 添加 WHY 文档链接和简要说明
 
+## 2026-03-10 - 准备发布到 GitHub
+
+### 新增文件
+
+1. **LICENSE** - MIT 开源协议
+2. **.gitignore** - Git 忽略文件配置
+
+### 更新文件
+
+- **README.md** - 完善 GitHub 展示页面
+  - 添加徽章（License、Platform）
+  - 添加快速开始指南（包含下载命令）
+  - 添加 AppSo 致谢信息和文章链接
+  - 优化排版和结构
+- **WHY.md** - 添加 AppSo 致谢信息
+
+### Git 操作
+
+- 初始化 git 仓库
+- 创建初始提交
+
 ### 产品理念
 
 遵循 orange 的产品方法论：
