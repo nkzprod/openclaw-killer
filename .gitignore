@@ -38,3 +38,6 @@ $RECYCLE.BIN/
 # Temporary files
 *.tmp
 *.temp
+
+# Project memory (internal use only)
+memory.md
